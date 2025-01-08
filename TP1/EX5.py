@@ -8,7 +8,7 @@ def factorielle(n):
 
 
 
-print(factorielle(7))#5040
+print(factorielle(4))#24
 
 
 

@@ -13,8 +13,12 @@ class Etudiant(Personne):
         super().__init__(nom,prenom,age)
         self.matricule=matricule
     def etud(self):
+<<<<<<< HEAD
         super
         print(f"matricule:{self.matricule}")
+=======
+        print(f"L'étudiant {self.prenom} {self.nom} (Matricule: {self.matricule}) est en train d'étudier.")
+>>>>>>> 8acc533 (First commit)
 
 etud1=Etudiant("abdo","dodo",26,43094)
 etud1.etud()
